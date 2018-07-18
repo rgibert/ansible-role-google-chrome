@@ -6,7 +6,7 @@
         repo: "deb http://dl.google.com/linux/chrome/deb/ stable main"
         filename: google-chrome.list
       when:
-        - ansible_os_family = "Debian"
+        - ansible_os_family == "Debian"
 
     - name: install chrome
       package:
