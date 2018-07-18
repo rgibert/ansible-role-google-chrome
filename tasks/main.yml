@@ -13,5 +13,7 @@
         name: "google-chrome-{{ google_chrome_stability }}"
         state: present
 
+  become: yes
+  become_user: root
   tags:
     - google-chrome
