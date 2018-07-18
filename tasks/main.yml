@@ -1,0 +1,17 @@
+---
+- block:
+
+    - name: setup apt repository
+      apt_repository:
+        repo: "deb http://dl.google.com/linux/chrome/deb/ stable main"
+        filename: google-chrome.list
+      when:
+        - ansible_os_family = "Debian"
+
+    - name: install chrome
+      package:
+        name: "google-chrome-{{ google_chrome_stability }}"
+        state: present
+
+  tags:
+    - google-chrome
