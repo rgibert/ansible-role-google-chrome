@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: google_chrome
   author: Richard Gibert
   description: Google Chrome
   license: GPLv3
