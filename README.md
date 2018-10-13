@@ -9,6 +9,7 @@ Installs Google Chrome
 ## Role Variables
 
 | Variable | Default | Description |
+|----------|---------|-------------|
 | google_chrome_stability | stable | Stability level of Chrome to install (stable, unstable, beta) |
 
 ## Dependencies
