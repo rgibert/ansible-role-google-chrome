@@ -1,0 +1,4 @@
+**/*.pyc
+**/*.swp
+**/.swp
+meta/.galaxy_install_info
