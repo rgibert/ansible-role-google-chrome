@@ -1,0 +1,9 @@
+---
+- name: setup apt repository
+  apt_repository:
+    repo: "deb [arch={{ ansible_architecture }}] http://dl.google.com/linux/chrome/deb/ stable main"
+    filename: google-chrome
+
+- name: setup apt key
+  apt_key:
+    data: "{{ lookup('file', 'files/linux_signing_key.pub') }}"

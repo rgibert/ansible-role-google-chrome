@@ -18,7 +18,7 @@ Installs Google Chrome
 
 ## Example Playbook
 
-```
+```yaml
 - hosts:
     - servers
   roles:
@@ -31,4 +31,6 @@ GPLv3
 
 ## Author Information
 
-Richard Gibert <richard@gibert.ca>
+Richard Gibert
+[richard@gibert.ca](mailto:richard@gibert.ca)
+[https://richard.gibert.ca/](https://richard.gibert.ca/)
